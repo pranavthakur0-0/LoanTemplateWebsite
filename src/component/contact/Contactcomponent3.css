@@ -1,0 +1,121 @@
+.main-container3
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+    align-items: center;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.main-container3-one
+{
+    height: 100%;
+    width: 55%;
+    padding-top: 15vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+.main-container3-line
+{
+    margin: 10vh 0vh;
+    height: 80%;
+    width: 2px;
+    border-radius: 3px;
+    background-color: rgb(74, 74, 74);
+}
+
+
+.main-container3-two
+{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container3-two h1
+{
+    width: 30vh;
+    text-align: left;
+    padding-bottom: 2vh;
+}
+
+.main-container3-two p
+{
+    width: 30vh;
+    text-align: left;
+}
+
+.main-container3-one h1
+{
+    font-size: 60px;
+    padding-bottom: 5vh;
+}
+.form-class
+{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-container3-one-form span
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name
+{
+    height: 7vh;
+    width: 48%;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: rgb(126, 126, 126);
+    padding: 0vh 2vh;
+}
+
+#email
+{
+    height: 7vh;
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: rgb(126, 126, 126);
+    padding: 0vh 2vh;
+}
+
+textarea
+{
+    width: 100%;
+    padding: 0vh 2vh;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: rgb(126, 126, 126);
+}
+
+.Contact-submit
+{
+    margin-top: 3vh;
+    height: 7vh;
+    width: 25vh;
+    background-color:#3347ff;
+    border: 0px;
+    color:white;
+    border-radius: 2vh;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Contact-submit:hover
+{
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

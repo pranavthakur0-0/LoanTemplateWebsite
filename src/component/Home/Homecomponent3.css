@@ -1,0 +1,120 @@
+.main-Homecomponent3
+{
+    height: 100vh;
+    width: 100vw;
+    padding: 10vh 15vh 5vh 15vh;
+
+}
+.main-Homecomponent3-header
+{
+    height: fit-content;
+    font-size: 20px;
+    font-family: Thicccboi, sans-serif;
+    line-height: 1.667em;
+    font-weight: 500;
+}
+
+.main-Homecomponent3-wrapper
+{
+    height: 95%;
+    width: 100%;
+    display: flex;
+}
+.main-Homecomponent3-part-one
+{
+    height: 100%;
+    width: 50%;
+    padding: 3vh 0vh 0vh 0vh;
+}
+.main-Homecomponent3-part-two
+{
+    height: 100%;
+    width: 50%;
+    padding: 3vh 0vh 0vh 0vh;
+    background-image: url(../images/iphon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-Homecomponent3-part-one-heading
+{
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Thicccboi, sans-serif;
+}
+.main-Homecomponent3-part-one-slider
+{
+    margin-top: 1vh;
+    height: 3px;
+    width: 20vh;
+    background-color: black;
+}
+.main-Homecomponent3-part-one-text
+{
+    padding-top: 4vh;
+    font-size: 18px;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 500;
+}
+
+.main-Homecomponent3-part-one-contact
+{
+    font-weight:bolder;
+    padding-top: 4vh;
+    font-size: 18px;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 500;
+}
+
+.main-Homecomponent3-part-one-links-wrapper
+{
+    font-size: 18px;
+    margin-top: 2vh;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-Homecomponent3-part-one-links
+{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 500;
+    color: #555555;
+    font-family: Thicccboi, sans-serif;
+}
+
+
+
+  .MdVerified
+  {
+    color:#3347ff;
+    font-size:25px !important;
+
+  }
+  .main-Homecomponent3-part-one-links-icon
+{
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    padding: 0.6vh;
+}
+
+.main-Homecomponent3-part-one-links-icon span
+{
+    padding-left: 2vh;
+}

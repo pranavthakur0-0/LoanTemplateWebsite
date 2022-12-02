@@ -1,0 +1,81 @@
+.main-TypesofLoan
+{
+    padding: 10vh 0vh 2vh 0vh;
+    font-family: sans-serif;
+    height: fit-content;
+    width: 100vw;
+}
+
+.main-TypesofLoan h1
+{
+    padding-left: 15vh;
+    font-size: 50px;
+    padding-bottom: 2vh;
+}
+.main-TypesofLoan-wrapper
+
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+}
+
+.main-TypesofLoan-box
+{
+    height: 40vh;
+    width: 400px;
+    background-color: #f3f3f3;
+    border-radius: 4vh;
+    padding: 4vh;
+    font-family:  Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.081) 0px 3px 8px;
+    
+}
+
+.main-TypesofLoan-box-heading
+{
+    color: #14142b;
+    font-size: 24px;
+    line-height: 1.417em;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.main-TypesofLoan-box-heading p
+{
+    font-family: Inter, sans-serif;
+    color: #797979;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    padding-top: 2vh;
+}
+
+.main-TypesofLoan-box-read-more 
+{
+    margin-top: 2vh;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh !important;
+    width: 19vh !important;
+    background-color: #4437ff;
+    color: white;
+    transition: 0.4s ease;
+    border-radius: 2vh;
+    box-shadow: rgb(99 99 99 / 20%) 0px 1px 3px 0px;
+}
+.main-TypesofLoan-box-read-more:hover
+{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

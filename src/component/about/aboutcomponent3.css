@@ -1,0 +1,129 @@
+.main-home-service-section-about
+{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5vh;
+    padding: 10vh 0vh 30vh 0vh;
+    background-size: cover;
+    background-image: url(../images/backgoundlines.png),linear-gradient(101deg, #e0faff 5%, #edfaff 51%, #efefff);
+}
+.home-service-section
+{
+    height: 60vh;
+    width: 100vw;
+    padding: 5vh 15vh 5vh 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.home-service-section-heading
+{
+    padding-top: 10vh;
+    height: fit-content;
+    width: 100vw;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.home-service-section-text
+{
+    padding: 5vh 25vh 5vh 25vh;
+    font-family: Thicccboi, sans-serif;
+    color: #000000;
+    font-size: 21px;
+    line-height: 1.567em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-service-section-module
+{
+
+    padding: 5vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 70vh;
+    width: 30%;
+    background-color: #fff;
+    transition: 0.9s ease;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.home-service-section-module:hover
+{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home-service-section-module-icon-wrapper
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.home-service-section-module-index
+{
+    font-size: 130px;
+    position: absolute;
+    right: -20px;
+    top: -50px;
+    font-weight: 700;
+    color: rgba(220, 220, 220, 0.308);
+}
+
+
+.home-service-section-module-icon
+{
+    height: 10vh;
+    width: 10vh;
+    padding: 2vh 2vh 2vh 0vh;
+    line-height: 34px;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-service-section-module-heading
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 2vh 2vh 2vh 0vh;
+    line-height: 34px;
+
+}
+.home-service-section-module-text-about
+{
+    height: fit-content;
+    padding-top: 3vh;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 17px;
+    line-height: 1.667em;
+    font-weight: 500;
+}
+
+
+.sal-icon
+{
+    background-image: url(../images/salary.png);
+}
+
+.buiss-icon
+{
+    background-image: url(../images/businessman.png);
+}
+
+.doc-icon
+{
+    background-image: url(../images/folders.png);
+}

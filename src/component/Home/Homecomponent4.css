@@ -1,0 +1,114 @@
+.main-home-4
+{
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    padding: 0vh 15vh 20vh 15vh; 
+}
+
+.main-home-4-part-one
+{
+    font-family: sans-serif;
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    padding: 15vh 0vh 10vh 0vh;
+
+}
+
+.main-home-4-part-two
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.main-home-4-part-one-heading
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.main-home-4-part-one-heading-back
+{
+    background-image: linear-gradient(98.24deg, #318aff, #5b71ff 28%, #ff82be);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.main-home-4-part-one-text
+{
+ 
+    font-weight: 800;
+    padding: 5vh 10vh 0vh 0vh;
+    color: #797979;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.main-home-4-part-two-box
+{
+    height: 40vh;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5vh;
+    font-family: sans-serif;
+}
+.part-testimonial1
+{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ffed), to(#fff));
+    background-image: linear-gradient(180deg, #d8f6d2, #fff);
+}
+
+.part-testimonial2
+{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff8f0), to(#fff));
+    background-image: linear-gradient(180deg, #f9e7d0, #fff);
+}
+.part-testimonial3
+{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0fdff), to(#fff));
+    background-image: linear-gradient(180deg, #e1f7fa, #fff);
+}
+.part-testimonial4
+{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff4f8), to(#fff));
+    background-image: linear-gradient(180deg, #fee5ee, #fff);
+}
+.main-home-4-part-two-box-icon-name
+{
+    display: flex;
+    align-items: center;
+
+}
+.main-home-4-part-two-box-icon
+{
+    background-color: black;
+    height: 14vh;
+    width: 14vh;
+    border-radius: 50%;
+    font-weight: 800;
+}
+.main-home-4-part-two-box-name
+{
+ 
+    font-size: 25px;
+    padding-left: 3vh;
+}
+.main-home-4-part-two-box-text
+{
+    padding-top: 3vh;
+    color: #797979;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}

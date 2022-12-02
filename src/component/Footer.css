@@ -1,0 +1,155 @@
+.main-footer
+{
+    height: 100vh;
+    width: 100vw;
+    padding: 10vh;
+
+}
+
+.main-footer-wrapper
+{
+    height:70vh;
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer-wrapper-menu
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #212326;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.footer-address
+{
+    height: 100%;
+    width: 33%;
+}
+
+.footer-address p
+{
+    padding-top: 4vh;
+    font-family: Inter, sans-serif;
+    color: #797979;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+
+}
+
+
+.main-footer-wrapper-menu h2
+{
+
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 2vh 0vh 0vh 0vh ;
+  
+}
+.main-footer-wrapper-menu ul
+{
+    text-decoration: none;
+    list-style: none;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 500;
+    padding: 2vh 0vh 0vh 0vh;
+}
+
+.main-footer-wrapper-email-box{
+    padding: 5vh;
+    height: 90%;
+    width: 38%;
+    border-radius: 30px;
+    background-color: #3347ff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main-footer-wrapper-email-box h1{
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+    padding-top: 8vh;
+    display: flex;
+    align-self: flex-start;
+}
+
+.main-footer-wrapper-email-box p{
+    color: white;
+    margin: 0px;
+    font-size: 18px;
+    padding-top: 2vh;
+    font-family: Thicccboi, sans-serif;
+    line-height: 1.667em;
+    font-weight: 500;
+    display: flex;
+    align-self: flex-start;
+}
+.main-footer-wrapper-email-box-input
+{
+    display: flex;
+    margin-top: 3vh;
+    padding: 2vh;
+    height: 7vh;
+    width: 90%;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 500;
+}
+.input-button
+{
+    line-height: 1.111em;
+    font-weight: 800;
+    text-align: center;
+    border-color: #fff;
+    background-color: #fff;
+    color: #3347ff;
+    margin-top: 2vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+}
+.input-button:hover
+{
+    transform: scale(1.05);
+}
+.main-footer h3
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    font-family: sans-serif;
+
+}
+
+::placeholder { 
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 500;
+    opacity: 1; 
+  }

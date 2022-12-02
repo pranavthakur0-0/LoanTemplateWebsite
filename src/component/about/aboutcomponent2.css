@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@400;800&display=swap');
+.main-container-about-2
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 10vh 10vh;
+    font-family: sans-serif;
+}
+
+.main-container-about-2-part-one
+{
+    height: 100%;
+    width: 40%;
+}
+
+.main-container-about-2-part-one-heading
+{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.main-container-about-2-part-one-heading h1
+{
+    font-size: 100px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    padding: 0vh 0vh 0vh 5vh;
+    background-image: linear-gradient(98.24deg, #318aff, #5b71ff 18%, #ff82be);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-container-about-2-part-one-heading h3
+{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    padding: 10vh 0vh 0vh 5vh;
+}
+
+.main-container-about-2-part-one-heading span
+{
+    width: 100%;
+    position: absolute;
+    font-size: 400px;
+    font-weight: bolder;
+    text-align: center;
+    top: -15vh;
+    color: rgba(220, 220, 220, 0.602);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    z-index: -1;
+}
+
+.main-container-about-2-part-two
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container-about-2-part-two-content
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.main-container-about-2-part-two-content span
+{
+    padding: 5vh;
+    height: 100%;
+    width: 50%;
+}
+
+.main-container-about-2-part-two-content-icon
+{
+    height: 12vh;
+    width: 12vh;
+    background-color: black;
+}
+
+.main-container-about-2-part-two-content span h1
+{
+    padding-top: 2vh ;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.main-container-about-2-part-two-content span p
+{
+    padding-top: 2vh ;
+    font-size: 17px;
+    color: #6e7191;
+    line-height: 1.267em;
+    font-weight: 500;
+}

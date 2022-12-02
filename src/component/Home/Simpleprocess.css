@@ -1,0 +1,108 @@
+.main-simple-process
+{
+    margin-top: 5vh;
+    height: 160vh;
+    width: 100vw;
+    padding: 10vh 8vw;
+    font-family: Thicccboi, sans-serif;
+    background-size: cover;
+    background-image: url(../images/backgoundlines.png),linear-gradient(101deg, #e0faff 5%, #edfaff 51%, #efefff);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-simple-process h1
+{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.main-simple-process-container
+{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-simple-process-container-line
+{
+  position: relative;
+  left: 10vh;
+  height: 115vh;
+  width: 3px;
+  background: rgb(255,130,190);
+  background: linear-gradient(0deg, rgba(255,130,190,1) 0%, rgba(91,113,255,1) 65%, rgba(49,138,255,1) 100%);
+  border-radius: 3px;
+}
+
+.main-simple-process-container-line span
+{
+  position: absolute;
+  left: -14px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: rgb(0, 0, 0) 0px 2px 5px 0px;
+}
+
+.main-simple-process-container-line-content-one
+{
+  height: 115vh;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-simple-process-container-line-content-two
+{
+  height: 115vh;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-simple-process-container-line-content-wrapper
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+#simple-process{
+  height: 20vh;
+  width: 40vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, #a6d5ff, #fff);
+  box-shadow: rgb(0 0 0 / 83%) 0px 2px 4px 0px;
+  border-radius: 3vh;
+  position: relative;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.main-simple-process-one
+{
+  top: 10vh;
+}
+.main-simple-process-two
+{
+  top: 35vh;
+}
+
+.main-simple-process-three
+{
+  top: 40vh;
+}
+
+
+.main-simple-process-four
+{
+  top: 65vh;
+}

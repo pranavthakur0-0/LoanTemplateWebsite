@@ -1,0 +1,78 @@
+.main-contact-container
+{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    padding: 10vh;
+    padding-top: 15vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    background-image: url(http://localhost:3001/static/media/backgoundlines.a1cc23e….png),linear-gradient(101deg, #e0eeff 5%, #edfaff 51%, #f7efff);
+}
+.main-contact-container-text
+{
+    height: 100%;
+    width: 50%;
+
+}
+.main-contact-container-text h1
+{
+    font-size: 5em;
+    padding-bottom: 3vh;
+    font-weight: bold;
+
+}
+.main-contact-container-text p
+{
+    font-size: 18px;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    line-height: 30px;
+  
+}
+
+.main-contact-container-info-box
+{
+    height: 30vh;
+    min-width: 50vw;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 10vh;
+  
+
+}
+
+.main-contact-container-info-box-content
+{
+    background-color: white;
+    height: fit-content;
+    width: 20vw;
+    padding: 3vh 5vh 3vh 5vh;
+    border-radius: 3vh;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.HiOutlineMail, .BsPhone
+{
+    font-size: 30px;
+    color: #3347ff;;
+}
+
+
+
+.main-contact-container-info-box-content:hover
+{
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-contact-container-info-box-content a
+{
+    text-decoration: none;
+    color: black;
+}
