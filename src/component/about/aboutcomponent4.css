@@ -1,0 +1,73 @@
+.main-component-about4
+{
+    height: 100vh;
+    width: 100vw;
+    padding: 10vh 15vh;
+    font-family: sans-serif;
+}
+
+.main-component-about4 h3
+{
+    font-size: 40px;
+    margin-bottom: 10vh;
+}
+
+.main-component-about4-content
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.main-component-about4-content-text
+{
+    height: 100%;
+    width: 50%;
+}
+
+.main-component-about4-content-img
+{
+    height: 80vh;
+    width: 48%;
+    position: relative;
+    left: 5%;
+    background-image: url(../images/car.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-component-about4-content-overlay
+{
+    position: relative;
+    height: 70vh;
+    width: 45vh;
+    border-radius: 10px;
+    background-color: rgb(255, 228, 164);
+    left: 40%;
+    z-index: -1;
+}
+
+.main-component-about4-content-text h3
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-component-about4-content-text h2
+{
+    font-size: 20px;
+    padding-bottom: 2vh;
+    font-family: Thicccboi, sans-serif;
+}
+
+.main-component-about4-content-text p
+{
+    width: 100%;
+    font-size: 15px;
+    font-family: Thicccboi, sans-serif;
+    color: #6e7191;
+    font-size: 17px;
+    line-height: 1.2em;
+    text-align: justify;
+    font-weight: 500;
+}

@@ -1,81 +1,115 @@
 .main-TypesofLoan
 {
-    padding: 10vh 0vh 2vh 0vh;
-    font-family: sans-serif;
-    height: fit-content;
+    height: 70vh;
     width: 100vw;
+    font-weight: bold;
+    font-family: Thicccboi, sans-serif;
+    margin-top: 15vh;
+    padding: 0vh 15vh;
 }
 
 .main-TypesofLoan h1
 {
-    padding-left: 15vh;
+    height:auto;
+    width: auto;
     font-size: 50px;
-    padding-bottom: 2vh;
 }
-.main-TypesofLoan-wrapper
 
+.main-container-typeloan
 {
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 5vh;
 }
-
-.main-TypesofLoan-box
+.typeloan-logo-content-box
 {
     height: 40vh;
     width: 400px;
-    background-color: #f3f3f3;
-    border-radius: 4vh;
-    padding: 4vh;
-    font-family:  Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    padding-top: 4vh;
+}
+
+.typeloan-logo-content-box:hover
+{
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.154) 0px 2px 15px 0px;
+}
+
+.typeloan-logo-content-box-logo
+{
+    height: fit-content;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 4vh;
+    justify-content: center;
+}
+
+
+.typeloan-logo-content-box-logo span
+{
+    height: 75px;
+    width: 75px;
+    background-color: #d5e7ff;
+    border-radius: 50%;
+    display: flex;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.081) 0px 3px 8px;
-    
+    justify-content: center;
 }
 
-.main-TypesofLoan-box-heading
+.comparison
 {
-    color: #14142b;
-    font-size: 24px;
-    line-height: 1.417em;
-    font-weight: 800;
+    background-color: #FFECE4 !important;
+}
+.succeed
+{
+    background-color: #F4EFF3 !important;
+}
+
+
+.typeloan-logo-content-box-logo img
+{
+        height: 45px;
+        width: 45px;
+}
+
+.typeloan-logo-content-box-border
+{
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(12, 0, 174) 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+}
+
+.typeloan-logo-content-box-content
+{
+    height: fit-content;
+    width: 100%;
+    padding-top: 20px;
+    font-family: sans-serif !important;
+}
+
+.typeloan-logo-content-box-content h2
+{
+    width: 100%;
+    font-size: 30px;
     text-align: center;
-    padding-top: 2vh;
 }
 
-.main-TypesofLoan-box-heading p
+.typeloan-logo-content-box-content p
 {
-    font-family: Inter, sans-serif;
+    width: 100%;
+    padding: 2vh 5vh;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
     color: #797979;
-    font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.01em;
-    text-align: justify;
-    padding-top: 2vh;
-}
-
-.main-TypesofLoan-box-read-more 
-{
-    margin-top: 2vh;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6vh !important;
-    width: 19vh !important;
-    background-color: #4437ff;
-    color: white;
-    transition: 0.4s ease;
-    border-radius: 2vh;
-    box-shadow: rgb(99 99 99 / 20%) 0px 1px 3px 0px;
-}
-.main-TypesofLoan-box-read-more:hover
-{
-    transform: scale(1.05);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
