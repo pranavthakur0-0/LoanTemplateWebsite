@@ -42,7 +42,7 @@
     height: 70vh;
     width: 45vh;
     border-radius: 10px;
-    background-color: rgb(255, 228, 164);
+    background-image: url(http://localhost:3000/static/media/backgoundlines.a1cc23e….png),linear-gradient(101deg, #cef7ff 5%, #d3f3ff 51%, #d1d1ff);
     left: 40%;
     z-index: -1;
 }

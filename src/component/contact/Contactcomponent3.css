@@ -98,6 +98,7 @@ textarea
     outline: 0;
     border-width: 0 0 1.5px;
     border-color: rgb(126, 126, 126);
+    resize: none;
 }
 
 .Contact-submit
