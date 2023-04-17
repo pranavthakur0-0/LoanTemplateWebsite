@@ -48,7 +48,7 @@ function Homecomponent4() {
                 {
                   return  <div key={data.id} className={`main-home-4-part-two-box part-testimonial${data.id}`}>
                     <div className="main-home-4-part-two-box-icon-name">
-                    <div className="main-home-4-part-two-box-icon"></div>
+                    <img src={data.img} className="main-home-4-part-two-box-icon" alt="" />
                     <div className="main-home-4-part-two-box-name">{data.name}</div>
 
                     </div>

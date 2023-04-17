@@ -96,6 +96,7 @@
     width: 14vh;
     border-radius: 50%;
     font-weight: 800;
+    background-size: contain;
 }
 .main-home-4-part-two-box-name
 {

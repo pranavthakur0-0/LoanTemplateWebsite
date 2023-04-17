@@ -85,7 +85,20 @@ function Homecomponent5() {
                   </div>
 
                 </div>
-                <div className="carousel-item-box">1</div>
+                <div className="carousel-item-box">
+                  <div className="carousel-item-box-img">
+                  </div>
+                  <div className="carousel-item-box-name-date">
+                  Lilyan Schiller&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp; &nbsp;August 24, 2022
+                  </div>
+                  <div className="carousel-item-box-heading">
+                  First Mover Asia: Bitcoin Hovers Over $21K In Weekend Trading
+                  </div>
+                  <div className="carousel-item-box-text">
+                  Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override process.
+                  </div>
+
+                </div>
               </div>
             </div>
             <div className="carousel-item">
@@ -104,7 +117,20 @@ function Homecomponent5() {
                   </div>
 
                 </div>
-                <div className="carousel-item-box">2</div>
+                <div className="carousel-item-box">
+                  <div className="carousel-item-box-img">
+                  </div>
+                  <div className="carousel-item-box-name-date">
+                  Lilyan Schiller&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp; &nbsp;August 24, 2022
+                  </div>
+                  <div className="carousel-item-box-heading">
+                  First Mover Asia: Bitcoin Hovers Over $21K In Weekend Trading
+                  </div>
+                  <div className="carousel-item-box-text">
+                  Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override process.
+                  </div>
+
+                </div>
               </div>
             </div>
             <div className="carousel-item">
@@ -122,7 +148,20 @@ function Homecomponent5() {
                   Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override process.
                   </div>
                 </div>
-                <div className="carousel-item-box">3</div>
+                <div className="carousel-item-box">
+                  <div className="carousel-item-box-img">
+                  </div>
+                  <div className="carousel-item-box-name-date">
+                  Lilyan Schiller&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp; &nbsp;August 24, 2022
+                  </div>
+                  <div className="carousel-item-box-heading">
+                  First Mover Asia: Bitcoin Hovers Over $21K In Weekend Trading
+                  </div>
+                  <div className="carousel-item-box-text">
+                  Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override process.
+                  </div>
+
+                </div>
               </div>
             </div>
             </div>

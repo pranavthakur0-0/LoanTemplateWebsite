@@ -83,7 +83,11 @@
 {
     height: 12vh;
     width: 12vh;
-    background-color: black;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4305/4305611.png);
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
 }
 
 .main-container-about-2-part-two-content span h1

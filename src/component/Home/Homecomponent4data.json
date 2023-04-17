@@ -1,9 +1,9 @@
 {
     "testimonial" :
     [
-        {"id":"1","name": "Michael Scott", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this"},
-        {"id":"2","name": "Sylvester Stallone", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this"},
-        {"id":"3","name": "Sophie Moore", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this"},
-        {"id":"4","name": "John Carter", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this"}
+        {"id":"1","name": "Michael Scott", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this", "img" : "https://www.badairies.co.uk/assets/admin/plugins/images/users/4.jpg"},
+        {"id":"2","name": "Sylvester Stallone", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this", "img" : "http://view.jqueryfuns.com/2016/1/4/473fb10ece7afbcf197ea0c1578d71a7/img/avatar/big.jpg"},
+        {"id":"3","name": "Sophie Moore", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this", "img":"https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"},
+        {"id":"4","name": "John Carter", "text" : "The argument in favor of using filler text goes some thing like this The argument in favor of using filler text goes some thing like this", "img":"https://www.corporatephotographerslondon.com/wp-content/uploads/2021/07/LinkedIn_profile_photo_sample_1.jpg"}
     ]
 }
